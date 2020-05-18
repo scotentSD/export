@@ -10,7 +10,7 @@
   - [User Needs](/files/International Networks - User Needs.pdf)
   - [Personas](/files/Scotland_PLC_Personas.pdf)
   - **Service Blueprints**
-    - [Export Advisory Service](files/EAS_Bluprint.pdf)
+    - [Export Advisory Service Blueprint](files/EAS_15.pdf)
 
 
 ## Resources
