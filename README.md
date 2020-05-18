@@ -1,9 +1,8 @@
 
 ## Discovery
-- [XXX_User Needs](/files/International Networks - User Needs.pdf)
-- [XXX_Personas](/files/Scotland_PLC_Personas.pdf)
-- **Service Blueprints**
-  - [XXX](files/EAS_Bluprint.pdf)
+- [XXX_User Needs from Cross Gov research](/files/UserNeeds_2020.pdf)
+
+
 
 
 ## Historical Records from relevant past Export Initiatives
