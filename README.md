@@ -7,8 +7,8 @@
 
 
 ## Historical Records from relevant past Export Initiatives
-  - [User Needs](/files/International Networks - User Needs.pdf)
 
+- [Export Advisory Service Customer Journey](files/EAS_Journey_Worshop v4.pdf)
   - **Service Blueprints**
     - [Export Advisory Service Blueprint](files/EAS_15.pdf)
 
