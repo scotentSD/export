@@ -8,11 +8,9 @@
 
 
 
-## Historical Records from relevant past Export Initiatives
-
+## Resources from past Export Projects
 - [Export Advisory Service Customer Journey](files/EAS_Journey_Worshop v4.pdf)
-  - **Service Blueprints**
-    - [Export Advisory Service Blueprint](files/EAS_15.pdf)
+- [Export Advisory Service (EAS) Blueprint](files/EAS_15.pdf)
 
 
 ## Resources
