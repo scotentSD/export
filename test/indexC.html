@@ -73,7 +73,7 @@
               </section>
 
               <section class="about-business"  id="c4section">
-                   <p><strong>C4?</strong></p>
+                   <p><strong>Do you want to find new sources of funding and finance for exporting?</strong></p>
                    <div class="btn-group" data-toggle="buttons">
                        <label class="btn btn-default" id="c4yes"><input type="radio"> Yes </label>
                        <label class="btn btn-default" id="c4no"><input type="radio"> No   </label>
@@ -81,7 +81,7 @@
               </section>
 
               <section class="about-business"  id="c5section">
-                   <p><strong>C5?</strong></p>
+                   <p><strong>Are you looking for new routes to market?</strong></p>
                    <div class="btn-group" data-toggle="buttons">
                        <label class="btn btn-default" id="c5yes"><input type="radio"> Yes </label>
                        <label class="btn btn-default" id="c5no"><input type="radio"> No   </label>
@@ -89,7 +89,7 @@
               </section>
 
               <section class="about-business"  id="c6section">
-                   <p><strong>C6?</strong></p>
+                   <p><strong>Do you need help with getting your goods out to market?</strong></p>
                    <div class="btn-group" data-toggle="buttons">
                        <label class="btn btn-default" id="c6yes"><input type="radio"> Yes </label>
                        <label class="btn btn-default" id="c6no"><input type="radio"> No   </label>
@@ -97,7 +97,7 @@
               </section>
 
               <section class="about-business"  id="c7section">
-                   <p><strong>C7?</strong></p>
+                   <p><strong>Do you need advice on dealing with issues related to Brexit?</strong></p>
                    <div class="btn-group" data-toggle="buttons">
                        <label class="btn btn-default" id="c7yes"><input type="radio"> Yes </label>
                        <label class="btn btn-default" id="c7no"><input type="radio"> No   </label>
@@ -105,20 +105,14 @@
               </section>
 
               <section class="about-business"  id="c8section">
-                   <p><strong>C8?</strong></p>
+                   <p><strong>Are you looking for new ways to grow your business?</strong></p>
                    <div class="btn-group" data-toggle="buttons">
                        <label class="btn btn-default" id="c8yes"><input type="radio"> Yes </label>
                        <label class="btn btn-default" id="c8no"><input type="radio"> No   </label>
                    </div>
               </section>
 
-              <section class="about-business"  id="c9section">
-                   <p><strong>C9?</strong></p>
-                   <div class="btn-group" data-toggle="buttons">
-                       <label class="btn btn-default" id="c9yes"><input type="radio"> Yes </label>
-                       <label class="btn btn-default" id="c9no"><input type="radio"> No   </label>
-                   </div>
-              </section>
+
               <!-- Question END -->
               <!-- Question END -->
 
@@ -153,7 +147,7 @@
             <div id="c6div"></div>
             <div id="c7div"></div>
             <div id="c8div"></div>
-            <div id="c9div"></div>
+
         </li>
       </ul>
       </div>
@@ -183,87 +177,80 @@
       <script>
               $('#c1yes').on('click', function(e){
                     sessionStorage.setItem("c1", "Yes");
-                    document.getElementById("c1div").innerHTML = "c1 Yes";
+                    document.getElementById("c1div").innerHTML = "I need help with sales and marketing?";
               });
               $('#c1no').on('click', function(e){
                     sessionStorage.setItem("c1", "No");
-                    document.getElementById("c1div").innerHTML = "c1 No";
+                    //document.getElementById("c1div").innerHTML = "c1 No";
               });
 
 
               $('#c2yes').on('click', function(e){
                     sessionStorage.setItem("c2", "Yes");
-                    document.getElementById("c2div").innerHTML = "c2 Yes";
+                    document.getElementById("c2div").innerHTML = "I need help finding new buyers for my products or services?";
               });
               $('#c2no').on('click', function(e){
                     sessionStorage.setItem("c2", "No");
-                    document.getElementById("c2div").innerHTML = "c2 No";
+                    //document.getElementById("c2div").innerHTML = "c2 No";
               });
 
               $('#c3yes').on('click', function(e){
                     sessionStorage.setItem("c3", "Yes");
-                    document.getElementById("c3div").innerHTML = "c3 Yes";
+                    document.getElementById("c3div").innerHTML = "I want to know more about exporting taxes and incentives?";
               });
               $('#c3no').on('click', function(e){
                     sessionStorage.setItem("c3", "No");
-                    document.getElementById("c3div").innerHTML = "c3 No";
+                    //document.getElementById("c3div").innerHTML = "c3 No";
               });
 
 
               $('#c4yes').on('click', function(e){
                     sessionStorage.setItem("c4", "Yes");
-                    document.getElementById("c4div").innerHTML = "c4 Yes";
+                    document.getElementById("c4div").innerHTML = "I want to find new sources of funding and finance for exporting?";
               });
               $('#c4no').on('click', function(e){
                     sessionStorage.setItem("c4", "No");
-                    document.getElementById("c4div").innerHTML = "c4 No";
+                    //document.getElementById("c4div").innerHTML = "c4 No";
               });
 
 
               $('#c5yes').on('click', function(e){
                     sessionStorage.setItem("c5", "Yes");
-                    document.getElementById("c5div").innerHTML = "c5 Yes";
+                    document.getElementById("c5div").innerHTML = "I am looking for new routes to market?";
               });
               $('#c5no').on('click', function(e){
                     sessionStorage.setItem("c5", "No");
-                    document.getElementById("c5div").innerHTML = "c5 No";
+                    //document.getElementById("c5div").innerHTML = "c5 No";
               });
 
               $('#c6yes').on('click', function(e){
                     sessionStorage.setItem("c6", "Yes");
-                    document.getElementById("c6div").innerHTML = "c6 Yes";
+                    document.getElementById("c6div").innerHTML = "I need help with getting goods out to market?";
               });
               $('#c6no').on('click', function(e){
                     sessionStorage.setItem("c6", "No");
-                    document.getElementById("c6div").innerHTML = "c6 No";
+                    //document.getElementById("c6div").innerHTML = "c6 No";
               });
 
               $('#c7yes').on('click', function(e){
                     sessionStorage.setItem("c7", "Yes");
-                    document.getElementById("c7div").innerHTML = "c7 Yes";
+                    document.getElementById("c7div").innerHTML = "I need advice on dealing with issues related to Brexit?";
               });
               $('#c7no').on('click', function(e){
                     sessionStorage.setItem("c7", "No");
-                    document.getElementById("c7div").innerHTML = "c7 No";
+                    //document.getElementById("c7div").innerHTML = "c7 No";
               });
 
               $('#c8yes').on('click', function(e){
                     sessionStorage.setItem("c8", "Yes");
-                    document.getElementById("c8div").innerHTML = "c8 Yes";
+                    document.getElementById("c8div").innerHTML = "I am looking for new ways to grow my business?";
               });
               $('#c8no').on('click', function(e){
                     sessionStorage.setItem("c8", "No");
-                    document.getElementById("c8div").innerHTML = "c8 No";
+                    //document.getElementById("c8div").innerHTML = "c8 No";
               });
 
-              $('#c9yes').on('click', function(e){
-                    sessionStorage.setItem("c9", "Yes");
-                    document.getElementById("c9div").innerHTML = "c9 Yes";
-              });
-              $('#c9no').on('click', function(e){
-                    sessionStorage.setItem("c9", "No");
-                    document.getElementById("c9div").innerHTML = "c9 No";
-              });
+
 
       </script>
 
