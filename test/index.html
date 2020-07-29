@@ -150,16 +150,42 @@
       <!-- A1 Code -->
       <script>
       		$('#a1yes').on('click', function(e){
-			        localStorage.setItem("a1", "I have started exporting");
-			        document.getElementById("a1div").innerHTML = localStorage.product;
+			        localStorage.setItem("a1", "a1 Yes");
+			        document.getElementById("a1div").innerHTML = localStorage.a1;
       		});
 
 		      $('#a1no').on('click', function(e){
-			        localStorage.setItem("a1", "I sell Services");
-			        document.getElementById("a1div").innerHTML = localStorage.product;
+			        localStorage.setItem("a1", "a1 No");
+			        document.getElementById("a1div").innerHTML = localStorage.a1;
       		});
 
 	  </script>
+
+    <script>
+        $('#b1yes').on('click', function(e){
+            localStorage.setItem("b1", "b1 Yes");
+            document.getElementById("a1div").innerHTML = localStorage.b1;
+        });
+
+        $('#b1no').on('click', function(e){
+            localStorage.setItem("b1", "b1 No");
+            document.getElementById("b1div").innerHTML = localStorage.b1;
+        });
+
+  </script>
+
+  <script>
+      $('#c1yes').on('click', function(e){
+          localStorage.setItem("c1", "c1 Yes");
+          document.getElementById("c1div").innerHTML = localStorage.c1;
+      });
+
+      $('#c1no').on('click', function(e){
+          localStorage.setItem("c1", "c1 No");
+          document.getElementById("c1div").innerHTML = localStorage.c1;
+      });
+
+</script>
     <!-- End of Code -->
 
 	  </body>
