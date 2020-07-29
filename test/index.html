@@ -46,23 +46,54 @@
               <h1>Export Diagnostic</h1>
               <p class="lead">Tell us about what your business needs. </p>
 
-              <!-- A1 Question -->
-              <!-- A1 Question -->
-              <!-- A1 Question -->
+              <!-- Question -->
+              <!-- Question -->
               <section class="about-business">
 		               <p><strong>Have you started exporting yet?</strong></p>
 		               <div class="btn-group" data-toggle="buttons">
-		               <label class="btn btn-default" id="a1option1">
-		                   <input type="radio" name="a1" id="a1yes"> Yes
-		               </label>
-		               <label class="btn btn-default" id="a1option2">
-		                   <input type="radio" name="a1" id="a1no"> No
-		               </label>
+		                   <label class="btn btn-default" id="a1yes">
+		                      <input type="radio" name="a1" id="a1yes_input"> Yes
+		                   </label>
+		                   <label class="btn btn-default" id="a1no">
+		                      <input type="radio" name="a1" id="a1no_input"> No
+		                   </label>
 		               </div>
               </section>
-              <!-- A1 Question END -->
-              <!-- A1 Question END -->
-              <!-- A1 Question END -->
+              <!-- Question END -->
+              <!-- Question END -->
+
+
+              <!-- Question -->
+              <!-- Question -->
+              <section class="about-business">
+		               <p><strong>Do you need help with researching new markets?</strong></p>
+		               <div class="btn-group" data-toggle="buttons">
+		                   <label class="btn btn-default" id="b1yes">
+		                      <input type="radio" name="a1" id="b1yes_input"> Yes
+		                   </label>
+		                   <label class="btn btn-default" id="b1no">
+		                      <input type="radio" name="a1" id="b1no_input"> No
+		                   </label>
+		               </div>
+              </section>
+              <!-- Question END -->
+              <!-- Question END -->
+
+              <!-- Question -->
+              <!-- Question -->
+              <section class="about-business">
+		               <p><strong>Do you know what countries you want to export to?</strong></p>
+		               <div class="btn-group" data-toggle="buttons">
+		                   <label class="btn btn-default" id="c1yes">
+		                      <input type="radio" name="a1" id="c1yes_input"> Yes
+		                   </label>
+		                   <label class="btn btn-default" id="c1no">
+		                      <input type="radio" name="a1" id="c1no_input"> No
+		                   </label>
+		               </div>
+              </section>
+              <!-- Question END -->
+              <!-- Question END -->
 
 
   <!--   -->
@@ -116,19 +147,20 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-
-
-    	<script>
-      		$('#a1option1').on('click', function(e){
+      <!-- A1 Code -->
+      <script>
+      		$('#a1yes').on('click', function(e){
 			        localStorage.setItem("a1", "I have started exporting");
 			        document.getElementById("a1").innerHTML = localStorage.product;
       		});
 
-		      $('#a1option2').on('click', function(e){
+		      $('#a1no').on('click', function(e){
 			        localStorage.setItem("a1", "I sell Services");
 			        document.getElementById("a1").innerHTML = localStorage.product;
       		});
 
 	  </script>
+    <!-- End of Code -->
+
 	  </body>
 </html>
