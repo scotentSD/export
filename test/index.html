@@ -44,7 +44,7 @@
 
              <div class="starter-template">
               <h1>Export Diagnostic</h1>
-              <p class="lead">Tell us about what your business needs. v1 </p>
+              <p class="lead">Tell us about what your business needs. v2 </p>
 
               <!-- Question -->
               <!-- Question -->
@@ -151,12 +151,12 @@
       <script>
       		$('#a1yes_input').on('click', function(e){
 			        localStorage.setItem("a1", "I have started exporting");
-			        document.getElementById("a1").innerHTML = localStorage.product;
+			        document.getElementById("a1div").innerHTML = localStorage.product;
       		});
 
-		      $('#a1no_input').on('click', function(e){
+		      $('#a1no').on('click', function(e){
 			        localStorage.setItem("a1", "I sell Services");
-			        document.getElementById("a1").innerHTML = localStorage.product;
+			        document.getElementById("a1div").innerHTML = localStorage.product;
       		});
 
 	  </script>
