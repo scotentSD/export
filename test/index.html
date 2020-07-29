@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Scottish Enterprise</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/exports-wizard.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Scottish Enterprise</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Services</a></li>
+            <li><a href="#contact">Support for Business</a></li>
+            <li><a href="#contact">Learning Zone</a></li>
+            <li><a href="#contact">Our Organisation</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+	     <div class="row">
+		       <div class="col-sm-9">
+
+             <div class="starter-template">
+              <h1>Export Diagnostic</h1>
+              <p class="lead">Tell us about what your business needs. </p>
+
+              <!-- A1 Question -->
+              <!-- A1 Question -->
+              <!-- A1 Question -->
+              <section class="about-business">
+		               <p><strong>Have you started exporting yet?</strong></p>
+		               <div class="btn-group" data-toggle="buttons">
+		               <label class="btn btn-default" id="a1option1">
+		                   <input type="radio" name="a1" id="a1yes"> Yes
+		               </label>
+		               <label class="btn btn-default" id="a1option2">
+		                   <input type="radio" name="a1" id="a1no"> No
+		               </label>
+		               </div>
+              </section>
+              <!-- A1 Question END -->
+              <!-- A1 Question END -->
+              <!-- A1 Question END -->
+
+
+  <!--   -->
+  <!-- Back/Next Button -->
+  <div class="actions text-center">
+         <a href="index.html" class="back-link">Back</a>
+         <button id="primary" onClick="parent.location='index2.html'">Next</button>
+       </div>
+  </div>
+
+  </div>
+	  <div class="col-sm-3">
+		<div class="panel panel-default">
+                <div class="panel-heading"><h4>Here is what you have told us so far</h4></div>
+      <ul class="list-group">
+		  <li class="list-group-item">
+		   <!-- <p>You have asked us for:</p> -->
+				<script>
+					//if (localStorage.advice) { document.write(localStorage.advice);}
+        	//if (localStorage.networking) { document.write(localStorage.networking);}
+        </script>
+
+
+        <!-- These are empty DIV's in teh right hand block that are updsated with code to reflect your choices -->
+        <!-- These are empty DIV's in teh right hand block that are updsated with code to reflect your choices -->
+        <!-- These are empty DIV's in teh right hand block that are updsated with code to reflect your choices -->
+        <div id="a1div"></div>
+				<div id="b1div"></div>
+				<div id="c1div"></div>
+
+			</li>
+		  </ul>
+            </div>
+	</div>
+	    </div>
+    </div><!-- /.container -->
+
+
+	<!-- On Click event handlers   -->
+  <!-- On Click event handlers   -->
+  <!-- On Click event handlers   -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/export-wizard.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+    	<script>
+      		$('#a1option1').on('click', function(e){
+			        localStorage.setItem("a1", "I have started exporting");
+			        document.getElementById("a1").innerHTML = localStorage.product;
+      		});
+
+		      $('#a1option2').on('click', function(e){
+			        localStorage.setItem("a1", "I sell Services");
+			        document.getElementById("a1").innerHTML = localStorage.product;
+      		});
+
+	  </script>
+	  </body>
+</html>
