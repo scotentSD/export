@@ -44,11 +44,11 @@
 
              <div class="starter-template">
               <h1>Export Diagnostic</h1>
-              <p class="lead">Tell us about what your business needs. v5 </p>
+              <p class="lead">Tell us about what your business needs. v7 </p>
 
               <!-- Question -->
               <!-- Question -->
-              <section class="about-business">
+              <section class="about-business"  id="a1section">
 		               <p><strong>Have you started exporting yet?</strong></p>
 		               <div class="btn-group" data-toggle="buttons">
 		                   <label class="btn btn-default" id="a1yes">
@@ -65,7 +65,7 @@
 
               <!-- Question -->
               <!-- Question -->
-              <section class="about-business">
+              <section class="about-business"  id="b1section" hidden>
 		               <p><strong>Do you need help with researching new markets?</strong></p>
 		               <div class="btn-group" data-toggle="buttons">
 		                   <label class="btn btn-default" id="b1yes">
@@ -81,7 +81,7 @@
 
               <!-- Question -->
               <!-- Question -->
-              <section class="about-business" id="c1section">
+              <section class="about-business" id="c1section" hidden>
 		               <p><strong>Do you know what countries you want to export to?</strong></p>
 		               <div class="btn-group" data-toggle="buttons">
 		                   <label class="btn btn-default" id="c1yes">  <input type="radio"> Yes  </label>
@@ -146,25 +146,34 @@
       <!-- A1 Code -->
       <script>
       		$('#a1yes').on('click', function(e){
-			        localStorage.setItem("a1", "a1 Yes");
+			        localStorage.setItem("a1", "Yes");
 			        document.getElementById("a1div").innerHTML = localStorage.a1;
+
+              <!-- Hide B1div -->
+              document.getElementById("b1section").style.display = "block";
+              document.getElementById("c1section").style.display = "none";
       		});
 
 		      $('#a1no').on('click', function(e){
-			        localStorage.setItem("a1", "a1 No");
+			        localStorage.setItem("a1", "No");
 			        document.getElementById("a1div").innerHTML = localStorage.a1;
+
+              <!-- Hide c1div -->
+              document.getElementById("b1section").style.display = "none";
+              document.getElementById("c1section").style.display = "block";
+
       		});
 
 	  </script>
 
     <script>
         $('#b1yes').on('click', function(e){
-            localStorage.setItem("b1", "b1 Yes");
-            document.getElementById("a1div").innerHTML = localStorage.b1;
+            localStorage.setItem("b1", "Yes");
+            document.getElementById("b1div").innerHTML = localStorage.b1;
         });
 
         $('#b1no').on('click', function(e){
-            localStorage.setItem("b1", "b1 No");
+            localStorage.setItem("b1", "No");
             document.getElementById("b1div").innerHTML = localStorage.b1;
         });
 
@@ -172,12 +181,12 @@
 
   <script>
       $('#c1yes').on('click', function(e){
-          localStorage.setItem("c1", "c1 Yes");
+          localStorage.setItem("c1", "Yes");
           document.getElementById("c1div").innerHTML = localStorage.c1;
       });
 
       $('#c1no').on('click', function(e){
-          localStorage.setItem("c1", "c1 No");
+          localStorage.setItem("c1", "No");
           document.getElementById("c1div").innerHTML = localStorage.c1;
       });
 
