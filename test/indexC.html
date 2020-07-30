@@ -22,6 +22,7 @@
 
   <body>
 <script>
+ if (sessionStorage.c0) {sessionStorage.removeItem.c0};
  if (sessionStorage.c1) {sessionStorage.removeItem.c1};
  if (sessionStorage.c2) {sessionStorage.removeItem.c2};
  if (sessionStorage.c3) {sessionStorage.removeItem.c3};
@@ -53,11 +54,19 @@
                <div class="col-sm-9">
 
              <div class="starter-template">
-              <h1>Export Diagnostic</h1>
-              <p class="lead">Tell us about what your business needs. v7 </p>
+              <h1>Export Diagnostic: I have started exporting (C)</h1>
+              <p class="lead">Tell us more about what your business needs. v7 </p>
 
               <!-- Question -->
               <!-- Question -->
+              <section class="about-business"  id="c0section">
+                       <p><strong>Do you need help with researching new markets?</strong></p>
+                       <div class="btn-group" data-toggle="buttons">
+                           <label class="btn btn-default" id="c0yes"><input type="radio"> Yes </label>
+                           <label class="btn btn-default" id="c0no"><input type="radio"> No   </label>
+                       </div>
+              </section>
+
               <section class="about-business"  id="c1section">
                        <p><strong>Do you need help with sales and marketing?</strong></p>
                        <div class="btn-group" data-toggle="buttons">
@@ -149,6 +158,7 @@
             <!-- These are empty DIV's in teh right hand block that are updsated with code to reflect your choices -->
             <!-- These are empty DIV's in teh right hand block that are updsated with code to reflect your choices -->
             <!-- These are empty DIV's in teh right hand block that are updsated with code to reflect your choices -->
+            <div id="c0div"></div>
             <div id="c1div"></div>
             <div id="c2div"></div>
             <div id="c3div"></div>
@@ -185,13 +195,23 @@
 
       <!-- C1 Code -->
       <script>
+              $('#c0yes').on('click', function(e){
+                    sessionStorage.setItem("c0", "Yes");
+                    document.getElementById("c0div").innerHTML = "I need help with researching new markets?";
+                });
+                $('#c0no').on('click', function(e){
+                    sessionStorage.setItem("c0", "No");
+                    document.getElementById("c0div").innerHTML = "";
+
+                });
+
               $('#c1yes').on('click', function(e){
                     sessionStorage.setItem("c1", "Yes");
                     document.getElementById("c1div").innerHTML = "I need help with sales and marketing?";
               });
               $('#c1no').on('click', function(e){
                     sessionStorage.setItem("c1", "No");
-                    //document.getElementById("c1div").innerHTML = "c1 No";
+                    document.getElementById("c1div").innerHTML = ""; //1 No";
               });
 
 
@@ -201,7 +221,7 @@
               });
               $('#c2no').on('click', function(e){
                     sessionStorage.setItem("c2", "No");
-                    //document.getElementById("c2div").innerHTML = "c2 No";
+                    document.getElementById("c2div").innerHTML = "";
               });
 
               $('#c3yes').on('click', function(e){
@@ -210,7 +230,7 @@
               });
               $('#c3no').on('click', function(e){
                     sessionStorage.setItem("c3", "No");
-                    //document.getElementById("c3div").innerHTML = "c3 No";
+                    document.getElementById("c3div").innerHTML = "";
               });
 
 
@@ -220,7 +240,7 @@
               });
               $('#c4no').on('click', function(e){
                     sessionStorage.setItem("c4", "No");
-                    //document.getElementById("c4div").innerHTML = "c4 No";
+                    document.getElementById("c4div").innerHTML = "";
               });
 
 
@@ -230,7 +250,7 @@
               });
               $('#c5no').on('click', function(e){
                     sessionStorage.setItem("c5", "No");
-                    //document.getElementById("c5div").innerHTML = "c5 No";
+                    document.getElementById("c5div").innerHTML = "";
               });
 
               $('#c6yes').on('click', function(e){
@@ -239,7 +259,7 @@
               });
               $('#c6no').on('click', function(e){
                     sessionStorage.setItem("c6", "No");
-                    //document.getElementById("c6div").innerHTML = "c6 No";
+                    document.getElementById("c6div").innerHTML = "";
               });
 
               $('#c7yes').on('click', function(e){
@@ -248,7 +268,7 @@
               });
               $('#c7no').on('click', function(e){
                     sessionStorage.setItem("c7", "No");
-                    //document.getElementById("c7div").innerHTML = "c7 No";
+                    document.getElementById("c7div").innerHTML = "";
               });
 
               $('#c8yes').on('click', function(e){
@@ -257,7 +277,7 @@
               });
               $('#c8no').on('click', function(e){
                     sessionStorage.setItem("c8", "No");
-                    //document.getElementById("c8div").innerHTML = "c8 No";
+                    document.getElementById("c8div").innerHTML = "";
               });
 
 

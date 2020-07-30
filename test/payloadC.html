@@ -61,7 +61,13 @@
           </div>
           -->
 
-
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9" id="c0">
+              <h2>Help with researching new markets?</h2>
+              <p>...</p>
+              <p><a class="btn btn-default" href="c0.pdf" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+          </div>   <!-- END OF ROW    -->
 
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9" id="c1">
@@ -80,7 +86,7 @@
           </div>   <!-- END OF ROW    -->
 
           <div class="row">
-            <div class="col-xs-6 col-lg-4" id="c3">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="c3">
               <h2>Exporting taxes and incentives?</h2>
               <p>..</p>
               <p><a class="btn btn-default" href="c3.pdf" role="button">View details &raquo;</a></p>
@@ -89,7 +95,7 @@
 
 
           <div class="row">
-            <div class="col-xs-6 col-lg-4" id="c4">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="c4">
               <h2>Find new sources of funding and finance for exporting</h2>
               <p>...</p>
               <p><a class="btn btn-default" href="c4.pdf" role="button">View details &raquo;</a></p>
@@ -98,7 +104,7 @@
         <!-- END of Sections -->
 
         <div class="row">
-          <div class="col-xs-6 col-lg-4" id="c5">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="c5">
             <h2>New routes to market</h2>
             <p>...</p>
             <p><a class="btn btn-default" href="c5.pdf" role="button">View details &raquo;</a></p>
@@ -106,7 +112,7 @@
         </div>   <!-- END OF ROW    -->
 
         <div class="row">
-          <div class="col-xs-6 col-lg-4" id="c6">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="c6">
             <h2>Help with getting goods out to market</h2>
             <p>...</p>
             <p><a class="btn btn-default" href="c6.pdf" role="button">View details &raquo;</a></p>
@@ -115,7 +121,7 @@
 
 
         <div class="row">
-          <div class="col-xs-6 col-lg-4" id="c7">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="c7">
             <h2>Advice on dealing with issues related to Brexit</h2>
             <p>...</p>
             <p><a class="btn btn-default" href="c7.pdf" role="button">View details &raquo;</a></p>
@@ -124,7 +130,7 @@
 
 
         <div class="row">
-          <div class="col-xs-6 col-lg-4" id="c8">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="c8">
             <h2>New ways to grow my business</h2>
             <p>...</p>
             <p><a class="btn btn-default" href="c8.pdf" role="button">View details &raquo;</a></p>
@@ -147,10 +153,11 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/export-wizard.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- <script src="js/ie10-viewport-bug-workaround.js"></script>  -->
 
     <SCRIPT>
       //  Hide everything
+      document.getElementById("c0").style.display = "none";
       document.getElementById("c1").style.display = "none";
       document.getElementById("c2").style.display = "none";
       document.getElementById("c3").style.display = "none";
@@ -164,6 +171,7 @@
 
 
       //Show the chosen options
+      if (sessionStorage.c0=="Yes") {document.getElementById("c0").style.display = "inline";};
       if (sessionStorage.c1=="Yes") {document.getElementById("c1").style.display = "inline";};
       if (sessionStorage.c2=="Yes") {document.getElementById("c2").style.display = "inline";};
       if (sessionStorage.c3=="Yes") {document.getElementById("c3").style.display = "inline";};
