@@ -20,11 +20,15 @@
 
   </head>
 
-  <body>
+  <body onload="clearMyStorageE()">
+
 <script>
- if (sessionStorage.e1) {sessionStorage.removeItem.e1};
- if (sessionStorage.e2) {sessionStorage.removeItem.e2};
- if (sessionStorage.e3) {sessionStorage.removeItem.e3};
+  function clearMyStorageE() {
+    if (sessionStorage.c1) {sessionStorage.removeItem("e1")};
+    if (sessionStorage.c2) {sessionStorage.removeItem("e2")};
+    if (sessionStorage.c3) {sessionStorage.removeItem("e3")};
+  }
+
 </script>
 
 
