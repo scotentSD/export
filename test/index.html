@@ -20,7 +20,20 @@
 
   </head>
 
-  <body>
+  <body onload="clearMyStorageIndex()">
+
+<script>
+//Clear session storage.
+//This effectively resets the answers
+//The localStorage line was just used to fix previous localStorage method used as opposed to now using sessionStorage.
+  function clearMyStorageIndex() {
+    //localStorage.clear();
+    sessionStorage.clear();
+    //if (sessionStorage.c0) {sessionStorage.removeItem("c0")};
+    //alert("Storage Cleared");
+  }
+
+</script>
 
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
