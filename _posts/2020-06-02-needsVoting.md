@@ -8,15 +8,15 @@ display_date: 2nd June 2020
 return_url: "https://scotentsd.github.io/export/timeline/"
 ---
 
-Phase
+##Phase
     Discovery
 
-Audience
+##Audience
 - Trade team
 - Project Team
 
-We were focusing on
+##We were focusing on
 - 
 
-What we discovered
+##What we discovered
 - 
