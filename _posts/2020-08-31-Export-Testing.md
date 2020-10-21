@@ -21,8 +21,6 @@ return_url: "https://scotentsd.github.io/export/timeline/"
 - Prioritising Support Needs
 - Investigating differing needs for each company stage
 
-
-
 **What we discovered**
 - Common Themes
    - UNCERTAINTY
@@ -36,5 +34,7 @@ return_url: "https://scotentsd.github.io/export/timeline/"
    - C. I am looking for opportunities
    - D. I am looking for intermediary info (distributors etc...). "I got stung in the past"
    - Z. Doing fine alone
-
+   
+   
+   
 <!--more-->
