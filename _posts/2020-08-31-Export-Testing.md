@@ -36,5 +36,6 @@ return_url: "https://scotentsd.github.io/export/timeline/"
    - Z. Doing fine alone
    
    
-   
+**Prioritised User Needs**   
 <!--more-->
+![Customers prioritised needs](aug2020_1.png)
