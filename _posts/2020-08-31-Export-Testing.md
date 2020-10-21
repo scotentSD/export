@@ -38,4 +38,7 @@ return_url: "https://scotentsd.github.io/export/timeline/"
    
 **Prioritised User Needs**   
 <!--more-->
-![Customers prioritised needs](aug2020_1.png)
+![Customers prioritised needs](../images/aug2020_1.png)
+
+
+![Customers prioritised groups of needs](../images/aug2020_2.png)
