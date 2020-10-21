@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Export Customer Test: Findings - August 2020
+title: Export Customer Test Findings - August 2020
 type: lab
 phase: discovery
 initials: mk
