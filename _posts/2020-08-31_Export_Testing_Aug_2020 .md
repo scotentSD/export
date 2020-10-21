@@ -31,10 +31,10 @@ return_url: "https://scotentsd.github.io/export/timeline/"
    - Time Poor
    - The information is not sector specific enough
 - 5 main types of customer / need
-   a I started exporting due to an international request and had to learn very quickly
-   b I am looking for tarrifs and customs info
-   c I am looking for opportunities
-   d I am looking for intermediary info (distributors etc...). "I got stung in the past"
-   z Doing fine alone
+   a. I started exporting due to an international request and had to learn very quickly
+   b. I am looking for tarrifs and customs info
+   c. I am looking for opportunities
+   d. I am looking for intermediary info (distributors etc...). "I got stung in the past"
+   z. Doing fine alone
 
 <!--more-->
