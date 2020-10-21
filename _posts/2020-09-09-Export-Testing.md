@@ -1,7 +1,7 @@
 ---
 layout: post
 title: xxx
-type: other
+type: lab
 phase: discovery
 initials: mk
 display_date: 31st Aug 2020
