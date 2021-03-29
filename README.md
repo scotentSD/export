@@ -1,4 +1,6 @@
 
+- [Research Timeline](/timeline.md)
+
 ## Discovery 2020
 - [User Needs from Cross Gov research - Phase 1](/files/UserNeeds_2020.pdf)
 - [User needs as story map with Phase 1 defined- Customer view by Elements](/files/UserNeeds_StoryMap_Elements.pdf)
