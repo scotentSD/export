@@ -1,5 +1,6 @@
 
 - [Research Timeline](/timeline.md)
+- [Research Timeline - Summary](/timelinelight.md)
 
 ## Discovery 2020
 - [User Needs from Cross Gov research - Phase 1](/files/UserNeeds_2020.pdf)
@@ -11,10 +12,6 @@
 
 #### Draft
 - [Export Theme & Element prioritisation -Draft v0.1](/files/Trade_element_and_theme_priritisations.pdf)
-
-
-
-
 
 ## Resources from past Export Projects
 - [Export Advisory Service Customer Journey](files/EAS_Journey_Worshop v4.pdf)
