@@ -2,14 +2,10 @@
 layout: post
 title: Export Compass v1
 type: lab
-phase: discovery
 initials: mk
 display_date: 24 Nov 2020
 return_url: "https://scotentsd.github.io/export/timeline/"
 ---
-
-## Phase
-    Discovery
 
 ## Audience
 - Internal testing with 7 staff members 
