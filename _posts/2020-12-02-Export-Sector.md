@@ -29,4 +29,4 @@ return_url: "https://scotentsd.github.io/export/timeline/"
 
 
 ## Files
-- [Export Sector Opportunities(/export/files/SE-Exporting-SectorOpportunities-101220.pdf) (PDF)
+- [Export Sector Opportunities](/export/files/SE-Exporting-SectorOpportunities-101220.pdf) (PDF)
