@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Export Compass update
-type: online
+type: lab
 initials: kd
 display_date: 09 Feb 2020
 return_url: "https://scotentsd.github.io/export/timeline/"
