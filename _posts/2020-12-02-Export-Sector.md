@@ -4,7 +4,7 @@ title: Export sector opportunities
 type: online
 phase: discovery
 initials: kd
-display_date: 02 Deb 2020
+display_date: 02 Dec 2020
 return_url: "https://scotentsd.github.io/export/timeline/"
 ---
 
