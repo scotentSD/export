@@ -2,14 +2,10 @@
 layout: post
 title: Prepare to Export online learning
 type: online
-phase: discovery
 initials: kd
 display_date: 10 Dec 2020
 return_url: "https://scotentsd.github.io/export/timeline/"
 ---
-
-## Phase
-- Discovery
 
 ## Audience
 - Unmoderated research with 6 participants on UserZoom 
