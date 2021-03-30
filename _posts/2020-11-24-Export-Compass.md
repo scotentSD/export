@@ -15,7 +15,7 @@ return_url: "https://scotentsd.github.io/export/timeline/"
 - Internal testing with 7 staff members 
 
 ## We were focusing on
--First version of the Export Compass tool 
+- First version of the Export Compass tool 
 
 ## Hypotheses
 
