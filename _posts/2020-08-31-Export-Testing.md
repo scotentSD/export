@@ -3,7 +3,7 @@ layout: post
 title: Export customer test findings
 type: lab
 initials: mk
-display_date: 31st Aug 2020
+display_date: 31 Aug 2020
 return_url: "https://scotentsd.github.io/export/timeline/"
 ---
 
