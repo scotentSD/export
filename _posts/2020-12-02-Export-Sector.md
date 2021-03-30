@@ -2,14 +2,10 @@
 layout: post
 title: Export sector opportunities
 type: online
-phase: discovery
 initials: kd
 display_date: 02 Dec 2020
 return_url: "https://scotentsd.github.io/export/timeline/"
 ---
-
-## Phase
-- Discovery
 
 ## Audience
 - 10 business owners/senior decision makers based in Scotland 
