@@ -45,4 +45,4 @@ return_url: "https://scotentsd.github.io/export/timeline/"
 - Use the current components in simplified layouts
 
 ## Files
-[Export Compass Playback](export/files/Export_Compass_Playback_2020_11_24.pdf)
+- [Export Compass Playback](/export/files/Export_Compass_Playback_2020_11_24.pdf) (PDF)
