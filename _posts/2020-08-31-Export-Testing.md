@@ -2,29 +2,29 @@
 layout: post
 title: Export Customer Test Findings
 type: lab
-phase: discovery
 initials: mk
 display_date: 31st Aug 2020
 return_url: "https://scotentsd.github.io/export/timeline/"
 ---
 
-**Phase**
-    Discovery
+## Audience
+- 11 companies (a mix of non-exporters, early-stage exporters and SME existing exporters) 
 
-**Audience**
-- Customers
-   - 4 x NON EXPORTERS
-   - 4 X Early stage Exporters
-   - 4 x SME Exisiting Exporters
+## We were focusing on
+- Understanding businesses’ experiences and challenges of exporting 
 
-**We were focusing on**
-- Prioritising Support Needs
-- Investigating differing needs for each company stage
+## Focus
+- How companies feel about exporting 
+- What do they need to help them export? 
+- What exporting areas are most important to them? 
+- What information about exporting is missing that they need?
 
-**What we discovered**
-- Common Themes
-   - UNCERTAINTY
-   - NOISE
+## Summary of insights
+- Top priorities are route to market, seeking buyers, logistics, customs, TTQIs and competitor intelligence
+- Businesses need help with the technical side of exporting, particularly relating to Brexit
+- User needs depend upon what exporting stage they’re at: 
+   - Uncertainty
+   - Noise
    - Not sure who to talk to
    - Time Poor
    - The information is not sector specific enough
@@ -36,9 +36,5 @@ return_url: "https://scotentsd.github.io/export/timeline/"
    - Z. Doing fine alone
    
    
-**Prioritised User Needs**   
-<!--more-->
-![Customers prioritised needs](../images/aug2020_1.png)
-
-
-![Customers prioritised groups of needs](../images/aug2020_2.png)
+## Files
+- [Export Testing August Playback](/export/files/20200831_Export_Testing_Aug_2020.pdf) (PDF)
