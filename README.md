@@ -1,3 +1,6 @@
+##Live exporting section
+
+- https://www.scottish-enterprise.com/support-for-businesses/exports-and-international-markets
 
 - [Research Timeline](/timeline.md)
 - [Research Timeline - Summary](/timelinelight.md)
@@ -18,4 +21,3 @@
 - [Export Advisory Service (EAS) Blueprint](files/EAS_15.pdf)
 
 
-## Resources
