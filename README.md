@@ -2,6 +2,8 @@
 
 - https://www.scottish-enterprise.com/support-for-businesses/exports-and-international-markets
 
+## Research timeline
+
 - [Research Timeline](/timeline.md)
 - [Research Timeline - Summary](/timelinelight.md)
 
