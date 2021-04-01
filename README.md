@@ -21,5 +21,3 @@
 ## Resources from past Export Projects
 - [Export Advisory Service Customer Journey](files/EAS_Journey_Worshop v4.pdf)
 - [Export Advisory Service (EAS) Blueprint](files/EAS_15.pdf)
-
-
