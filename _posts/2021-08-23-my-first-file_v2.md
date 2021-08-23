@@ -4,6 +4,9 @@ layout: post
 type: lab
 phase: discovery
 published: false
+initials: mk
+display_date: Today
+tltitle: My First File
 ---
 ## Audience
 - The audience is secret
