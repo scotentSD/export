@@ -3,7 +3,7 @@ return_url: 'https://scotentsd.github.io/export/timeline/'
 layout: post
 type: lab
 phase: discovery
-published: false
+published: true
 initials: mk
 display_date: Today
 tltitle: My First File
@@ -47,4 +47,3 @@ tltitle: My First File
 
 
 <!--more-->
-
