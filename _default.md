@@ -6,22 +6,6 @@ phase: discovery
 published: false
 ---
 
-## Phase
-    Discovery
-
-## Audience
-- xxx
-
-## We were focusing on 
-- xxx
-
-## What we discovered
-- xxx
-
-<!--more-->
-
-## Phase 
-    Discovery
 
 ## Audience
 - Funding Project Team, Stakeholders, Product Owner & Customers
