@@ -6,7 +6,7 @@ phase: discovery
 published: false
 ---
 ## Audience
-- Funding Project Team, Stakeholders, Product Owner & Customers
+- The audience is secret
 
 ## Focus
 - To test 
