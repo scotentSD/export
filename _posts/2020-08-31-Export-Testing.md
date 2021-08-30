@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Export customer test findings
+tlitle: Export customer test findings
 type: lab
 initials: mk
 display_date: 31 Aug 2020

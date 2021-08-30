@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Export sector opportunities
+tlitle: Export sector opportunities
 type: online
 initials: kd
 display_date: 02 Dec 2020

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Export Compass update
+tlitle: Export Compass update
 type: lab
 initials: kd
 display_date: 09 Feb 2021

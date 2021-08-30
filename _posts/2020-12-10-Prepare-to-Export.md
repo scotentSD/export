@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prepare to Export online learning
+tlitle: Prepare to Export online learning
 type: online
 initials: kd
 display_date: 10 Dec 2020
